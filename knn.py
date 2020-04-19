@@ -78,7 +78,7 @@ def correto(lista_teste, predicao):
 
 
 proporcao = 0.7
-dataset = "dataset1.txt"
+dataset = "datasets/dataset1.txt"
 lista_treino,lista_teste = dividir_dados(dataset, proporcao)
 predicao = []
 k = 1
